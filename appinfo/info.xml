@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>opacit</id>
+	<name>Opacit</name>
+	<summary>A ticketing and CRM solution</summary>
+	<description>A ticketing and CRM solution for NextCloud.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="support@gotitsystems.nl" homepage="https://gotitsystems.nl">Ilse van der Wal</author>
+	<namespace>Opacit</namespace>
+	<category>office</category>
+	<category>organization</category>
+	<bugs>https://github.com/Got-IT-Systems/OPACITNC/issues</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>opacit</id>
+			<name>Opacit</name>
+			<route>opacit.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
